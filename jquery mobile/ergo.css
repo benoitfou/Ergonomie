@@ -1,3 +1,6 @@
-html {
-	background-image: url("images/Storm.png");
+#meteoimg {
+	z-index: 0;
+	position: absolute;
+	height: 95%;
+	width: 100%;
 }
