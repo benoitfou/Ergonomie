@@ -26,6 +26,8 @@
 			<h1>Para-Vent</h1>
 		</div>
 		<div data-role="main">
+			<h2>Bienvenue dans l'application de Para-vent</h2>
+			<img id="montagneimg" src="images/indeximg.png">
 		</div>
 	</div>
 
