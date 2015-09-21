@@ -26,9 +26,10 @@
 			<h1>Para-Vent</h1>
 		</div>
 		<div data-role="main">
-		<?PHP
+		TATA
+		<?php 
 		include("chrono.php");
-		?>
+		 ?>
 		</div>
 	</div>
 
