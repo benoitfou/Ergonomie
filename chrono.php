@@ -72,7 +72,7 @@ function Chrono(){
 </script>
 </head>
 <body >
-<fieldset><legend>Chronométre</legend>
+<fieldset><legend>Chronomètre</legend>
 <form>
   <input id="demm" type=button value="Démarrer" Onclick="SetInt()"> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 value=00:00:00:00> &nbsp;&nbsp;&nbsp;
   <input type=button value=Initialiser Onclick=Init()>

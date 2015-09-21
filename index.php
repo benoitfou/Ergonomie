@@ -16,7 +16,7 @@
 			<ul data-role="listview">
 				<li><a href="ergo_2.html">Statistiques</a></li>
 				<li><a href="meteo.html">Météo</a></li>
-				<li><a href="ergo_2.html">Chronomètre</a></li>
+				<li><a href="chronometre.php">Chronomètre</a></li>
 				<li><a href="ergo_2.html">Mes Amis</a></li>
 				<li><a href="ergo_2.html">Paramètres</a></li>
 			</ul>
@@ -26,9 +26,6 @@
 			<h1>Para-Vent</h1>
 		</div>
 		<div data-role="main">
-		<?php 
-		include("chrono.php");
-		 ?>
 		</div>
 	</div>
 
