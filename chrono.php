@@ -57,6 +57,7 @@ function Chrono(){
 		 }
 	}
 	function SetInt(){
+    document.getElementById("demm").value = "Arrêter";
 	 if(One){
 	     Int=setInterval("Chrono()",10);
 	   One=false;
@@ -73,7 +74,7 @@ function Chrono(){
 <body >
 <fieldset><legend>Chronométre</legend>
 <form>
-  <input type=button value=Démarrer Onclick="SetInt()"> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 value=00:00:00:00> &nbsp;&nbsp;&nbsp;
+  <input id="demm" type=button value="Démarrer" Onclick="SetInt()"> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 value=00:00:00:00> &nbsp;&nbsp;&nbsp;
   <input type=button value=Initialiser Onclick=Init()>
 </form>
 </fieldset>
