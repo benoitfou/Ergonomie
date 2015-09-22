@@ -78,7 +78,7 @@ function Chrono(){
 <fieldset>
 <form name="formulaire">
   <a href="#" id="start" data-role="button" value="Démarrer" Onclick="SetInt()">Démarer</a> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 id="Text_1" value=00:00:00:00> &nbsp;&nbsp;&nbsp;
-  <input type=button value=Initialiser Onclick=Init()>
+  <input id="rein" type=button value="Réinitialiser" Onclick=Init()>
 </form>
 
 </fieldset>

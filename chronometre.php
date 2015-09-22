@@ -15,6 +15,9 @@ h1, input{
 #Text_1{
 	text-align: center;
 }
+#footer{
+	text-align: center;
+}
 </style>
 </head>
 <body>
@@ -29,7 +32,8 @@ h1, input{
 				include("chrono.php");
 		 	?>
 		</div>
-		<div data-role="footer">
+		<br><br><br><br><br><br>
+		<div id="footer" data-role="footer">
 			Copyright BLMN
 		</div>
 	</div>
