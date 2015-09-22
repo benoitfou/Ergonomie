@@ -14,7 +14,7 @@ h1, input{
 }
 #Text_1{
 	text-align: center;
-} 
+}
 </style>
 </head>
 <body>
