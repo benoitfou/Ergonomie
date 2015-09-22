@@ -8,7 +8,7 @@ function Chrono(){
     var Sec=parseInt(Ext(GetEle(document.forms[0].Text_1.value,2)));
 	var Min=parseInt(Ext(GetEle(document.forms[0].Text_1.value,1)));
 	var He=parseInt(Ext(GetEle(document.forms[0].Text_1.value,0)));
-	if(MSec<100){
+	if(MSec<99){
 	  MSec++;
 	  }
 	  else{
@@ -57,26 +57,30 @@ function Chrono(){
 		 }
 	}
 	function SetInt(){
-    document.getElementById("demm").value = "Arrêter";
+	 
 	 if(One){
+	 	$('#start').text('Arrêter');
 	     Int=setInterval("Chrono()",10);
 	   One=false;
 	   }else{
+	   	$('#start').text('Démarer');
 	     clearInterval(Int);
 		 One=true;
 		}
 	 }
 	 function Init(){
-	  document.forms[0].Text_1.value="00:00:00:00";
+	 document.forms[0].Text_1.style.textAlign = "center";
+	 document.forms[0].Text_1.value="00:00:00:00";
 	  }
 </script>
 </head>
 <body >
-<fieldset><legend>Chronomètre</legend>
-<form>
-  <input id="demm" type=button value="Démarrer" Onclick="SetInt()"> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 value=00:00:00:00> &nbsp;&nbsp;&nbsp;
+<fieldset>
+<form name="formulaire">
+  <a href="#" id="start" data-role="button" value="Démarrer" Onclick="SetInt()">Démarer</a> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 id="Text_1" value=00:00:00:00> &nbsp;&nbsp;&nbsp;
   <input type=button value=Initialiser Onclick=Init()>
 </form>
+
 </fieldset>
 </body>
 </html>
