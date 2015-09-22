@@ -25,7 +25,7 @@
 			<a href="#menu" data-icon="bars">Outils</a>
 			<h1>Para-Vent</h1>
 		</div>
-		<div data-role="main">
+		<div data-role="main" id="main">
 			<h2>Bienvenue dans l'application de Para-vent</h2>
 			<img id="montagneimg" src="images/indeximg.png">
 		</div>
