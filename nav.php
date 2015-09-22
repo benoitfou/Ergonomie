@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -13,16 +14,12 @@
 		<div data-role="panel" id="menu" data-display="overlay">
 			<h1>Outils</h1>
 			<ul data-role="listview">
-				<li><a href="stats.html">Statistiques</a></li>
+				<li><a href="ergo_2.html">Statistiques</a></li>
 				<li><a href="meteo.html">Météo</a></li>
 				<li><a href="chronometre.php">Chronomètre</a></li>
 				<li><a href="ergo_2.html">Mes Amis</a></li>
-				<li><a href="param.html">Paramètres</a></li>
+				<li><a href="settings.html">Paramètres</a></li>
 			</ul>
-		</div>
-		<div data-role="header">
-			<a href="#" data-rel="back">Retour</a>
-			<h1>Para-Vent</h1>
 		</div>
 	</div>
 </body>
