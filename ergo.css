@@ -51,3 +51,8 @@
 #Text_1{
 	text-align: center;
 }
+#meteocom p{
+	text-align: center;
+	font-weight: bold;
+	color: #B9121B;
+}
