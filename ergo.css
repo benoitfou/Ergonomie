@@ -40,3 +40,11 @@
 	font-size: 1.4em;
 	text-align: center;
 }
+#title{
+	padding: 2%;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 5px #000;
+}
