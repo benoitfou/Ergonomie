@@ -34,3 +34,9 @@
 .footer{
 	text-align: center;
 }
+.title{
+	padding: 2%;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align: center;
+}

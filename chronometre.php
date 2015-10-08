@@ -28,8 +28,8 @@ h1, input{
 			<h1>Chronomètre</h1>
 		</div>
 		<div data-role="main">
-			<center><h2>Combien de temps avez-vous passé dans les airs ?</h2></center>
-			<br>
+			<div class="title">Combien de temps avez-vous passé dans les airs ?</div>
+			<br><br><br>
 			<?php 
 				include("chrono.php");
 		 	?>
