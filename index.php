@@ -8,11 +8,6 @@
 	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.4.5.min.js"></script>
-<style>
-#footer{
-	text-align: center;
-}
-</style>
 </head>
 <body>
 	<div data-role="page">
