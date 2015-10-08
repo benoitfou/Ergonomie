@@ -35,9 +35,6 @@ h1, input{
 		 	?>
 		</div>
 		<br><br><br><br>
-		<div class="footer" data-role="footer">
-			Copyright BLMN
-		</div>
 	</div>
 </body>
 </html>
