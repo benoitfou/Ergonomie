@@ -27,8 +27,7 @@
 			<h1>Para-Vent</h1>
 		</div>
 		<div data-role="main" id="main">
-			<div id="title"><br><br><br><br><br><br>Bienvenue dans l'application de Para-vent<br><br><br><br><br><br><br><br><br><br></div>
-			
+			<div id="title"><br><br><br><br><br><br>Bienvenue dans l'application de Para-Vent<br><br><br><br><br><br><br><br><br><br></div>	
 		</div>
 	</div>
 

@@ -1,14 +1,15 @@
 #main {
 	background-image: url("images/indeximg.png");
 }
-
 #montagneimg {
 	z-index: 0;
 	position: absolute;
 	height: 100%;
 	width: 100%;
 }
-
+#metback {
+	background-color: #EFECCA;
+}
 #meteoimg {
 	z-index: 0;
 	position: relative;
