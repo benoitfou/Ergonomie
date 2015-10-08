@@ -18,7 +18,7 @@
 				<li><a href="stats.html">Statistiques</a></li>
 				<li><a href="meteo.html">Météo</a></li>
 				<li><a href="chronometre.php">Chronomètre</a></li>
-				<li><a href="ergo_2.html">Mes Amis</a></li>
+				<li><a href="amis.html">Mes Amis</a></li>
 				<li><a href="param.html">Paramètres</a></li>
 			</ul>
 		</div>
