@@ -6,6 +6,7 @@
 	<title>Tools</title>
 	<link rel="shortcut icon" href="">
 	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="ergo.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.4.5.min.js"></script>
 <style>
@@ -27,13 +28,14 @@ h1, input{
 			<h1>Chronomètre</h1>
 		</div>
 		<div data-role="main">
-			<h2>Combien de temps avez-vous passsé dans les airs ?</h2>
+			<center><h2>Combien de temps avez-vous passé dans les airs ?</h2></center>
+			<br>
 			<?php 
 				include("chrono.php");
 		 	?>
 		</div>
-		<br><br><br><br><br><br>
-		<div id="footer" data-role="footer">
+		<br><br><br><br>
+		<div class="footer" data-role="footer">
 			Copyright BLMN
 		</div>
 	</div>

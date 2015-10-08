@@ -60,6 +60,7 @@ function Chrono(){
 	 
 	 if(One){
 	 	$('#start').text('Arrêter');
+
 	     Int=setInterval("Chrono()",10);
 	   One=false;
 	   }else{
@@ -77,8 +78,8 @@ function Chrono(){
 <body >
 <fieldset>
 <form name="formulaire">
- <div id="chrochro"> <a href="#" id="start" data-role="button" value="Démarrer" Onclick="SetInt()">Démarer</a> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 id="Text_1" value=00:00:00:00> &nbsp;&nbsp;&nbsp;</div>
-  <input id="rein" type=button value="Réinitialiser" Onclick=Init()>
+ <div id="chrochro"><a href="#" id="start" data-role="button" value="Démarrer" Onclick="SetInt()">Démarer</a></div> &nbsp;&nbsp;&nbsp;<input type=text name=Text_1 id="Text_1" value=00:00:00:00> &nbsp;&nbsp;&nbsp;
+  <div id="reini"><input id="rein" type=button value="Réinitialiser" Onclick=Init()></div>
 </form>
 
 </fieldset>

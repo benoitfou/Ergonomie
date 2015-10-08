@@ -15,3 +15,22 @@
 	height: 100%;
 	width: 100%;
 }
+#chrochro{
+	width: 45%;
+	margin-left: 25%;
+	font-size: 1.2em;
+}
+#chrochro a{
+	font-size: 1.2em;
+}
+#reini{
+	width: 35%;
+	margin-left: 30%;
+	font-size: 1.2em;	
+}
+#reini a{
+	font-size: 0.8em;	
+}
+.footer{
+	text-align: center;
+}
