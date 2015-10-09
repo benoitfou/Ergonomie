@@ -19,10 +19,10 @@
     <div data-role="panel" id="menu"  data-display="overlay">
         <h1>Menu</h1>
         <ul data-role="listview">
-            <li><a href="stats.html">Statistiques</a></li>
-            <li><a href="meteo.html">Météo</a></li>
-            <li><a href="chronometre.php">Chronomètre</a></li>
-            <li><a href="amis.html">Mes amis</a></li>
+            <li><a href="#">undefined</a></li>
+            <li><a href="#">undefined</a></li>
+            <li><a href="#">undefined</a></li>
+            <li><a href="#">undefined</a></li>
 
         </ul>
     </div>
@@ -46,15 +46,17 @@
         </div>-->
     </div>
     <!--<div data-role="main" class="ui-content">
-        <ul data-role="listview" data-filter="true">
-            <li><a href="page2.html" class="ui-btn waves-effect waves-button" data-transition="slide">Slide</a></li>
-            <li><a href="page2.html" data-transition="pop">Pop</a></li>
-            <li><a href="page2.html" data-transition="flip">Flip</a></li>
-            <li><a href="page2.html" data-transition="flow">Flow</a></li>
-        </ul>
+        
     </div>-->
     <div data-role="main" id="main" class="ui-content">
-            <div id="title"><br><br><br><br><br><br>Bienvenue dans l'application de Para-Vent<br><br><br><br><br><br><br><br><br><br></div> 
+        <!--<div id="title"><br><br><br><br><br><br>Bienvenue dans l'application de Para-Vent<br><br><br><br><br><br><br><br><br><br></div>-->
+        <ul data-role="listview" data-filter="true" id="content">
+            <li><a href="stats.html" data-transition="flow">Statistiques</a></li>
+            <li><a href="meteo.html" data-transition="flow">Météo</a></li>
+            <li><a href="chronometre.php" data-transition="flow">Chronomètre</a></li>
+            <li><a href="amis.html" data-transition="flow">Mes amis</a></li>
+        </ul>
+        <br><br><br><br><br><br><br><br><br><br>
     </div>
     <!--<div data-role="footer" data-position="fixed">
 

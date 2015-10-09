@@ -1,5 +1,6 @@
 #main {
 	background-image: url("images/indeximg.png");
+	z-index: 0;
 }
 #montagneimg {
 	z-index: 0;
@@ -59,4 +60,12 @@
 }
 #grap_stats{
 	width: 100%;
+}
+#content {
+	padding: 2%;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 5px #000;
 }
