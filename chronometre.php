@@ -19,14 +19,14 @@
 			<a data-rel="back" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-arrow-back"></i></a>        <a href="#settings" data-icon="menu"></a>
 			<h1>Chronomètre</h1>
 		</div>
-		<div data-role="main">
+		<div data-role="main" id="calque">
 			<div class="title">Combien de temps avez-vous passé dans les airs ?</div>
 			<br><br><br>
 			<?php 
 				include("chrono.php");
 		 	?>
+		 	<br><br><br><br><br>
 		</div>
-		<br><br><br><br>
 	</div>
 </body>
 </html>
