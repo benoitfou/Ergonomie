@@ -4,20 +4,20 @@
 
 - **contexte :** avant et après un saut en parachute
 
-- **fonctionnalité principale :** statistiques sur le saut 								effectué
+- **fonctionnalité principale :** statistiques sur le saut effectué
 
 - **fonctionnalités secondaires :** météo , chronomètre, retrouver ses amis utilisant l'appli.
 
 - **Typologie des utilisateurs :** 
-touristes voulant découvrir le parapente,
+Touristes voulant découvrir le parapente,
 néophytes, amateurs et professionnels du parapente
 	
 - **A quoi ça va servir :** 
  - à stocker leurs statistiques sur leurs sauts (altitude, vitesse),
- - savoir combien de temps leur saut à durer,pouvoir comparer leurs performances avec les précédentes ou avec celles de leurs amis, 
+ - savoir combien de temps leur saut à durer, pouvoir comparer leurs performances avec les précédentes ou avec celles de leurs amis, 
  - pouvoir consulter la météo avant le saut pour voir si les conditions sont bonnes,
  -  pouvoir comparer les performances sur le même type de saut en fonction des conditions météo (vent, pluie etc).  
- <br/>
+
 
 - **Contraintes techniques :**  obligation d'avoir un mobile ou une tablette android ( public restreint), devoir lancer l'appli avant le vol mais ne pas pouvoir sans servir pendant.
 
@@ -35,13 +35,3 @@ C'est la fonctionnalité la moins importante.
 
 - **Quels compromis :** dans les statistiques on ne pouvaient pas afficher plus de paramètres pour ne  pas surcharcher le graphique.
 - Ne prendre que les besoins importants d'un parachuteurs.On aurait pu afficher les différents lieux de parapentes ,une carte ou des lieux pour manger , se reposer etc mais l'appli aurait été moins fluides et ces fonctions n'ont pas forcément besoin d'être dans l'application pour que l'utilisateur se serve de Para-Vent.
-
-
-
-
-
-
-
-
-
-
